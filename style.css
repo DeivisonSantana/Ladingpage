@@ -1,0 +1,39 @@
+*{
+    list-style: none;
+
+}
+body{
+    font-family:montserra;
+    
+}
+
+nav{
+background-color:#c4f2ef;
+width: 100%;
+right: 100px;
+
+}
+nav img{
+    width: 20vh;
+    right: 100vh;
+}
+nav li{
+    position: relative;
+
+}
+
+
+.container1 img{
+    width: 60vh;
+    right: 240vh;
+
+}
+.container{
+    background-color: #4be26cf6;
+    text-align: center;
+
+}
+.container img{
+    width: 60vh;
+    right: 240vh;
+}
