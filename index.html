@@ -10,6 +10,8 @@
 <meta charset="utf-8">
 <meta name="viewport"content="width=device-width">
 <title>index.html</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="style.css">
 </head>
 
@@ -18,79 +20,111 @@
     barra de navegação e logo.
 -->
     <nav>
-        <img src="src/img/nature(1).png">
+        <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
         <ul>
             <li> <a href="#">Feature</a></li>
             <li> <a href="#">Pricing</a></li>
             <li> <a href="#">Login</a></li>
             <li> <a href="#">SIGN UP FOR FREE</a></li>
         </ul>
-
+        <img src="src/img/nature(1).png">
     </nav>
-<hr>
 <!--
-    1° div: texto,imagem, background color.
+    1° seçao: texto,imagem, background color.
 -->
-<div>
-
+<div class="txtCenter">
     <h2>O que é o Lorem Ipsum?</h2>
-    <p> Lorem Ipsum é simplesmente um texto fictício da indústria tipográfica e de impressão.<br/>
-    Lorem Ipsum tem sido o texto fictício padrão da indústria desde os anos 1500,<br/>
+    <p> Lorem Ipsum é simplesmente um texto fictício da indústria tipográfica e de impressão.<br>
+    Lorem Ipsum tem sido o texto fictício padrão da indústria desde os anos 1500,<br>
     quando um impressor desconhecido pegou uma cozinha de tipos e embaralhou-a para fazer um livro de espécimes de tipos.     
     </p>
-     <img src="src/img/seasons.png">
+    <img src="src/img/seasons.png"  width="40%">
 </div>
-<div> LEAR NOW IT WORKS </div>
-
-<div>
-    <h2>De onde isso vem?</h2>
-    <p> Ao contrário da crença popular,<br/>
-        Lorem Ipsum não é simplesmente um texto aleatório.<br/>
-        Tem raízes em uma peça da literatura latina clássica de 45 aC,<br/> 
-        com mais de 2000 anos.
-
-    </p>
-    <div class="more"> LEAR NOW IT WORKS </div>
+<!--
+    2° seção: estilização utilizando o display flex;
+-->
+<div class="pagQ bg-color1">
+    <div class="txtLeft">
+        <h2>De onde isso vem?</h2>
+        <p> Ao contrário da crença popular,<br/>
+            Lorem Ipsum não é simplesmente um texto aleatório.<br/>
+            Tem raízes em uma peça da literatura latina clássica de 45 aC,<br/> 
+            com mais de 2000 anos.
+        </p>
+            <ul>
+                <li><a href="#">SIGN UP FOR FREE</a></li>
+            </ul>
+    </div>
+    <div class="img-right pagQ">
         <img src="src/img/tree-spring.jpg">
-   </div>
+    </div>
+</div>
+
 <hr>
-
-<div>
-    <img src="src/img/tree-autumn.jpg">
+<!--
+    3° seção texto a direita, imagem a esquerda;
+-->
+<div class="pagQ bg-color1">
+    <div>
+        <img src="src/img/tree-autumn.jpg">
+    </div>
+    <div class="txtRight">
+        <h2>Porque usamos isso?</h2>
+        <p> 
+            É um fato estabelecido há muito tempo <br>que um leitor se distrairá com o<br>
+            conteúdo legível de uma página ao olhar para seu layout. 
+        </p>
+        <ul>
+            <li><a href="#">SIGN UP FOR FREE</a></li>
+        </ul>
+       
+    </div>
 </div>
 
-<div>
-    <h2>Porque usamos isso?</h2>
-    <p> 
-        É um fato estabelecido há muito tempo que um leitor se distrairá com o 
-        conteúdo legível de uma página ao olhar para seu layout. 
-    </p>
-</div>
-<div> LEAR NOW IT WORKS </div>
 <hr>
-<div>
-    <h2>Onde posso arranjar algum?</h2>
-    <p>
-        Existem muitas variações de passagens de Lorem Ipsum disponíveis,<br/>
-        mas a maioria sofreu alterações de alguma forma, por humor injetado,<br/>
-        ou palavras aleatórias que não parecem nem um pouco críveis.
-    </p>
-    <img src="src/img/tree-winter.jpg">
+<!--
+    4° seção texto a esquerda, imagem a direita;
+-->
+<div class="pagQ bg-color1">
+    <div class="txtLeft">
+        <h2>Onde posso arranjar algum?</h2>
+        <p>
+            Existem muitas variações de passagens de Lorem Ipsum disponíveis,<br/>
+            mas a maioria sofreu alterações de alguma forma, por humor injetado,<br/>
+            ou palavras aleatórias que não parecem nem um pouco críveis.
+        </p>
+        <ul>
+            <li><a href="#">SIGN UP FOR FREE</a></li>
+        </ul>
+    </div>
+    <div class="img-right pagQ">
+        <img src="src/img/tree-winter.jpg">
+    </div>
 </div>
-<div> LEAR NOW IT WORKS </div>
 
-<div class="container">
+
+<!--
+    5° seção texto e imagem centro;
+-->
+<div class="txtCenter2">  
         <h2>Lorem Ipsum</h2>
          <p> 
-            O cliente é muito importante, o cliente será seguido pelo cliente. 
+            O cliente é muito importante, o cliente será seguido pelo cliente.<br>
             No portão dos jogadores não havia molho, o preço era lisonjeiro.
          </p>
-    <img src="src/img/nature(2).jpg">
+    <br>
+        <img src="src/img/nature(2).jpg" width="35%">
+       
 </div>
-<div>
-    <img src="src/img/nature(1).png">
+<br>
+<!--
+    6° menu final;
+-->
+<div class="toolbar">
     <img src="src/img/tree-summer.png">
-
     <ul> <a href="#">Products</a>
         <li> <a href="#">Download App</a></li>
         <li> <a href="#">Travel Buddy</a></li>
@@ -112,13 +146,13 @@
     <ul> <a href="#">PARTNERS</a>
         <li> <a href="#">Developer API</a></li>
         <li> <a href="#">Supported Booking Sites</a></li>
-    </ul>
+    </ul> 
 </div>
 <hr>
-<body>
-    <div id="RedesSociais" class>
-        <img src="https://upload.wikimedia.org/wikinews/pt/thumb/a/a3/Twitter_bird_logo.svg/1200px-Twitter_bird_logo.svg.png">
-    </div>
-</body>
+<div class="rs-Icons">
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-instagram"></i>
+</div>
+<hr>
 </body>
 </html>
