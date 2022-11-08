@@ -90,16 +90,93 @@
       left: 0;
     }
 }
-.txt1{
+.txtCenter{
     text-align: center;
-    align-items: center;
     position:relative;
-    background-color: #2c3e50;
     padding: 3vh;
+    background-color: #4b6b7a;
+    color: rgb(241, 240, 240);
+}
+.txtCenter2{
+    text-align: center;
+    position:relative;
+    color: rgb(0, 0, 0);
+    padding-top: 5px;
+    background-color: #bdc7c7;
+}
+
+.txtLeft{
+    text-align: left;
+    color: rgb(0, 0, 0);
+    padding: 50px;
+}
+.txtRight{
+    text-align: right;
+    color: rgb(0, 0, 0);
+    padding: 50px;
+}
+
+.pagQ{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.pagQ img{
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    padding: 25px;
+}
+
+.bg-color1{
+    background-color: #f1f1f1;
+}
+
+.pagQ .img-left{
+    text-align: left;
+}
+.toolbar{
+    display: flex;
+    justify-content:space-around;
+    padding-top: 2px;
+    
+}
+.toolbar img{
+    width: 25%;
+    height: auto;
+}
+.toolbar ul{
+    padding-top: 5%;
+}
+/* Style all font awesome icons */
+.rs-Icons{
+    text-align: center;
+}
+.fa-brands{
+    padding: 20px;
+    font-size: 30px;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa-brands:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook{
+    background: #3B5998;
     color: white;
-}
-.txt{
-
-
-}
-
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
