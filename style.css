@@ -1,44 +1,48 @@
 *{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-  }
-  body{
-    font-family: montserrat;
-  }
-  nav{
-    background: #f1f1f1;
-    height: 80px;
-    width: 100%;
-  }
-  nav img{
-    position: absolute;
-    width: 80px;
-    right: 90%;
-  }
-  nav ul{
-    float: right;
-    margin-right: 20px;
-  }
-  nav ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-  }
-  nav ul li a{
-    color: rgb(0, 0, 0);
-    font-size: 17px;
-    padding: 7px 13px;
-    border-radius: 3px;
-    text-transform: uppercase;
-  }
-  a.active,a:hover{
-    background: #019482;
-    transition: .5s;
-    border-radius: 1vh;
-  }
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: montserrat;
+}
+ nav{
+  background: #f1f1f1;
+  height: 80px;
+  width: 100%;
+}
+label.logo img{
+  width: 80px;
+  height: auto;
+}
+nav ul{
+  float: right;
+  margin-right: 40px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+} 
+nav ul li a{
+  color: black;
+  font-size: 17px;
+  padding: 7px 2px;
+  border-radius: 1vh;
+  text-transform: uppercase;
+}
+
+nav ul li a strong{
+  background-color: #48cafd;
+  border-radius: 2vh;
+  padding: 7px 15px;
+}
+a:hover{
+  transition: .5s;
+  background-color: #8fd5f6;
+}
   .checkbtn{
     font-size: 30px;
     color: rgb(0, 0, 0);
@@ -52,10 +56,6 @@
     display: none;
   }
   @media (max-width: 952px){
-    label.logo{
-      font-size: 30px;
-      padding-left: 50px;
-    }
     nav ul li a{
       font-size: 16px;
     }
@@ -65,9 +65,9 @@
       display: block;
     }
     ul{
-      position: fixed;
+      position: fixed; 
       width: 100%;
-      height: 100vh;
+      height: auto;
       background: #2c3e50;
       top: 80px;
       left: -100%;
@@ -82,101 +82,132 @@
     nav ul li a{
       font-size: 20px;
     }
-    a:hover,a.active{
+    a:hover{
       background: none;
       color: #0082e6;
     }
     #check:checked ~ ul{
       left: 0;
-    }
+    } 
 }
-.txtCenter{
+section{
+    display: block;
+}
+  h2{
+    color: #29417c;
+  }
+  .txtCenter{
     text-align: center;
     position:relative;
     padding: 3vh;
     background-color: #4b6b7a;
     color: rgb(241, 240, 240);
-}
-.txtCenter2{
+  }
+  .txtCenter2{
     text-align: center;
     position:relative;
     color: rgb(0, 0, 0);
     padding-top: 5px;
     background-color: #bdc7c7;
-}
-
-.txtLeft{
-    text-align: left;
-    color: rgb(0, 0, 0);
+  }
+  .txtCenter2 ul{
+    padding: 2%;
+  }
+  .txtCenter2 ul li a strong{
+    background-color: #48cafd;
+    border-radius: 2vh;
+    padding: 7px 15px;
+  }
+  .txtLeft{
     padding: 50px;
-}
-.txtRight{
-    text-align: right;
-    color: rgb(0, 0, 0);
+  }
+  .txtRight{
     padding: 50px;
-}
+  }
 
-.pagQ{
+  .pagQ{
     display: flex;
     justify-content:space-evenly;
-}
+  }
 
-.pagQ img{
-    width: 50%;
-    height: auto;
+  .pagQ img{
+    width: auto;
+    max-height: 250px;
     border-radius: 50%;
     padding: 25px;
-}
-
+  } 
+  .pagQ ul{
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 2vh;
+    text-align: left;
+  }
+  .pagQ ul li a strong{
+    background-color: #48cafd;
+    border-radius: 2vh;
+    padding: 7px 15px;
+  }
 .bg-color1{
     background-color: #f1f1f1;
-}
+  }
 
-.pagQ .img-left{
+  .pagQ .img-left{
     text-align: left;
-}
-.toolbar{
+  }
+  .toolbar{
     display: flex;
     justify-content:space-around;
-    padding-top: 2px;
-    
-}
-.toolbar img{
+    padding-top: 2px;   
+  }
+  .toolbar img{
     width: 25%;
     height: auto;
-}
-.toolbar ul{
+  }
+  .toolbar ul{
     padding-top: 5%;
-}
-/* Style all font awesome icons */
-.rs-Icons{
-    text-align: center;
-}
-.fa-brands{
-    padding: 20px;
-    font-size: 30px;
-    width: 50%;
-    height: auto;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 100%;
   }
-  
-  /* Add a hover effect if you want */
-  .fa-brands:hover {
-    opacity: 0.7;
+  .toolbar ul li a{
+  font-size: 17px;
+  border-radius: 2vh;
+  color: black;
   }
-  
-  /* Set a specific color for each brand */
-  
-  /* Facebook */
-  .fa-facebook{
-    background: #3B5998;
-    color: white;
+
+  footer{
+  position: relative;
+  background: white;
+  height: auto;
+  width: 100%;
+  font-family: "Open Sans";
+  color: rgb(0, 0, 0);
   }
-  
-  /* Twitter */
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
+  .footer-content{
+  display: flex;
+  justify-content:center;
+  padding: 2%;
+  text-align: center;
+  }
+  .socials{
+  display:flex;
+  justify-content:space-evenly;
+  flex-direction:row;
+  }
+
+  .socials li{
+  margin: 3%;
+  color: black;
+  } 
+.socials a{
+  background: none;
+  color: aqua;
+  }
+  .socials a,i:hover{
+  font-size: 30px;
+  color: aqua;
+  } 
+  .footer-copy p{
+  font-size: 18px;
+  word-spacing: 2px;
+  text-transform:capitalize;
+  text-align: center;
+  padding: 4%;
   }
