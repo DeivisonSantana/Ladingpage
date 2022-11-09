@@ -38,11 +38,11 @@ nav ul li a strong{
   background-color: #48cafd;
   border-radius: 2vh;
   padding: 7px 15px;
-}
+  }
 a:hover{
   transition: .5s;
   background-color: #8fd5f6;
-}
+  }
   .checkbtn{
     font-size: 30px;
     color: rgb(0, 0, 0);
@@ -51,7 +51,7 @@ a:hover{
     margin-right: 40px;
     cursor: pointer;
     display: none;
-  }
+    }
   #check{
     display: none;
   }
@@ -89,7 +89,7 @@ a:hover{
     #check:checked ~ ul{
       left: 0;
     } 
-}
+  } 
 section{
     display: block;
 }
@@ -107,8 +107,10 @@ section{
     text-align: center;
     position:relative;
     color: rgb(0, 0, 0);
-    padding-top: 5px;
-    background-color: #bdc7c7;
+    padding-top: 30px;
+    padding: 50px;
+    background-color: #e2c9b3;
+    font-size: 20px;
   }
   .txtCenter2 ul{
     padding: 2%;
@@ -156,8 +158,8 @@ section{
   }
   .toolbar{
     display: flex;
-    justify-content:space-around;
-    padding-top: 2px;   
+    justify-content:space-evenly;
+    padding-top: 2px;
   }
   .toolbar img{
     width: 25%;
