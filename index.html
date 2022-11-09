@@ -10,42 +10,41 @@
 <meta charset="utf-8">
 <meta name="viewport"content="width=device-width">
 <title>index.html</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-<!--
-    barra de navegação e logo.
--->
+<section>
     <nav>
         <input type="checkbox" id="check">
-      <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
-      </label>
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+        <label class="logo">
+            <img src="src/img/nature(1).png">
+        </label>
         <ul>
-            <li> <a href="#">Feature</a></li>
-            <li> <a href="#">Pricing</a></li>
-            <li> <a href="#">Login</a></li>
-            <li> <a href="#">SIGN UP FOR FREE</a></li>
+            <li> <a href="#">Feature</a> </li>
+            <li> <a href="#">Pricing</a> </li>
+            <li> <a href="#">Login</a> </li>
+            <li> <a href="#"> <strong> SIGN UP FOR FREE </strong> </a></li>
         </ul>
-        <img src="src/img/nature(1).png">
     </nav>
-<!--
-    1° seçao: texto,imagem, background color.
--->
+</section>
+
+<section>
 <div class="txtCenter">
-    <h2>O que é o Lorem Ipsum?</h2>
+    <h1>O que é o Lorem Ipsum?</h1>
     <p> Lorem Ipsum é simplesmente um texto fictício da indústria tipográfica e de impressão.<br>
     Lorem Ipsum tem sido o texto fictício padrão da indústria desde os anos 1500,<br>
     quando um impressor desconhecido pegou uma cozinha de tipos e embaralhou-a para fazer um livro de espécimes de tipos.     
     </p>
     <img src="src/img/seasons.png"  width="40%">
 </div>
-<!--
-    2° seção: estilização utilizando o display flex;
--->
+</section>
+
+<section>
 <div class="pagQ bg-color1">
     <div class="txtLeft">
         <h2>De onde isso vem?</h2>
@@ -55,39 +54,37 @@
             com mais de 2000 anos.
         </p>
             <ul>
-                <li><a href="#">SIGN UP FOR FREE</a></li>
+                <li><a href="#"><strong>LEAR HOW IT WORK</strong></a></li>
             </ul>
     </div>
     <div class="img-right pagQ">
         <img src="src/img/tree-spring.jpg">
     </div>
 </div>
-
 <hr>
-<!--
-    3° seção texto a direita, imagem a esquerda;
--->
+</section>
+
+<section>
 <div class="pagQ bg-color1">
     <div>
         <img src="src/img/tree-autumn.jpg">
     </div>
-    <div class="txtRight">
-        <h2>Porque usamos isso?</h2>
-        <p> 
+        <div class="txtRight">
+            <h2>Porque usamos isso?</h2>
+            <p> 
             É um fato estabelecido há muito tempo <br>que um leitor se distrairá com o<br>
             conteúdo legível de uma página ao olhar para seu layout. 
-        </p>
-        <ul>
-            <li><a href="#">SIGN UP FOR FREE</a></li>
+            </p>
+            <ul>
+            <li><a href="#"> <strong> ABOUT PRO </strong></a></li>
         </ul>
        
+        </div>
     </div>
-</div>
-
 <hr>
-<!--
-    4° seção texto a esquerda, imagem a direita;
--->
+</section>
+
+<section>
 <div class="pagQ bg-color1">
     <div class="txtLeft">
         <h2>Onde posso arranjar algum?</h2>
@@ -97,35 +94,35 @@
             ou palavras aleatórias que não parecem nem um pouco críveis.
         </p>
         <ul>
-            <li><a href="#">SIGN UP FOR FREE</a></li>
+            <li><a href="#"><strong>DOWNLOAD THE APP</strong></a></li>
         </ul>
     </div>
     <div class="img-right pagQ">
         <img src="src/img/tree-winter.jpg">
     </div>
 </div>
+</section>
 
-
-<!--
-    5° seção texto e imagem centro;
--->
+<section>
 <div class="txtCenter2">  
         <h2>Lorem Ipsum</h2>
          <p> 
             O cliente é muito importante, o cliente será seguido pelo cliente.<br>
             No portão dos jogadores não havia molho, o preço era lisonjeiro.
          </p>
-    <br>
-        <img src="src/img/nature(2).jpg" width="35%">
-       
+         <ul>
+            <li> <a href="#"> <strong> SIGN UP FOR FREE </strong> </a></li>
+         </ul>
+         <br>
+        <img src="src/img/nature(2).jpg" width="35%">     
 </div>
-<br>
-<!--
-    6° menu final;
--->
+</section>
+
+<section>
 <div class="toolbar">
     <img src="src/img/tree-summer.png">
-    <ul> <a href="#">Products</a>
+    <ul> 
+        <li> <a href="#"><strong>PRODUCTS</strong></a></li>
         <li> <a href="#">Download App</a></li>
         <li> <a href="#">Travel Buddy</a></li>
         <li> <a href="#">Travel Buddy Pro</a></li>
@@ -133,7 +130,8 @@
         <li> <a href="#">Help Center</a></li>
     </ul>
 
-    <ul> <a href="#">NEWS & RESOURCES</a>
+    <ul>
+        <li> <a href="#"><strong>NEWS & RESOURCES</strong></a></li>
         <li> <a href="#">Blog</a></li>
         <li> <a href="#">Press</a></li>
         <li> <a href="#">Jobs</a></li>
@@ -143,16 +141,31 @@
         <li> <a href="#">Cookie Preferences</a></li>
     </ul>
 
-    <ul> <a href="#">PARTNERS</a>
+    <ul> 
+        <li> <a href="#"><strong>NEWS & RESOURCES</strong></a></li> 
         <li> <a href="#">Developer API</a></li>
         <li> <a href="#">Supported Booking Sites</a></li>
     </ul> 
 </div>
 <hr>
-<div class="rs-Icons">
-    <i class="fa-brands fa-twitter"></i>
-    <i class="fa-brands fa-instagram"></i>
-</div>
+</section>
+<section>
+<footer>
+    
+    <div class="footer-content">
+        <ul class="socials">
+            <li><a href="#"><i class="fab fa-twitter"></i></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+        </ul>
+    </div>
+    <div class="footer-copy">
+        <p>copyright &copy;2022 LandingPage designed by <strong>Deivison</strong></p>
+    </div>
+</footer>
 <hr>
+</section>
 </body>
 </html>
