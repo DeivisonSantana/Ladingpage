@@ -12,7 +12,7 @@ body {
 
 nav {
   position: fixed;
-  background: #c1f1f3;
+  background: #dfecf4;
   height: 80px;
   width: 100%;
 }
@@ -37,7 +37,7 @@ nav ul li a {
   color: black;
   font-size: 17px;
   padding: 7px 13px;
-  border-radius: 3px;
+  border-radius: 2vh;
   text-transform: uppercase;
 }
 nav .active:hover{
@@ -136,8 +136,9 @@ h2 {
   color: black;
   font-size: 17px;
   padding: 10px;
-  border-radius: 1vh;
+  border-radius: 2vh;
   text-transform: uppercase;
+
 }
 .txtCenter2 a:hover{
   background:darkslateblue;
@@ -178,7 +179,10 @@ h2 {
 }
 
 .pagQ .img-left {
-  text-align: left;
+  margin-top: 40px;
+}
+.pagQ .img-right {
+  margin-top: 40px;
 }
 
 footer {
@@ -280,10 +284,3 @@ i:hover {
     display: inline-block;
     justify-content: center;
   }
-  /*.menu2 ul li a{
-    font-size: 14px;
-  }
-  footer .footer-copy p{
-    font-size: 14px;
-  } */
-} */
