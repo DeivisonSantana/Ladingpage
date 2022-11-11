@@ -20,6 +20,7 @@ nav {
 label.logo img {
   width: 80px;
   height: auto;
+  margin-left: 10%;
 }
 
 nav ul {
