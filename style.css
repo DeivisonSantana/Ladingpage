@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:sans-serif;
 }
 
 nav {
@@ -40,8 +40,9 @@ nav ul li a {
   border-radius: 2vh;
   text-transform: uppercase;
 }
-nav .active:hover{
-  background:darkslateblue;
+
+nav .active:hover {
+  background: darkslateblue;
   transition: .7s;
   color: white;
 }
@@ -82,6 +83,7 @@ a:hover {
   .checkbtn {
     display: block;
   }
+
   nav ul {
     position: fixed;
     width: 100%;
@@ -132,16 +134,17 @@ h2 {
   background-color: #e2c9b3;
   font-size: 20px;
 }
+
 .txtCenter2 a {
   color: black;
   font-size: 17px;
   padding: 10px;
   border-radius: 2vh;
   text-transform: uppercase;
-
 }
-.txtCenter2 a:hover{
-  background:darkslateblue;
+
+.txtCenter2 a:hover {
+  background: darkslateblue;
   transition: .7s;
   color: white;
 }
@@ -149,24 +152,29 @@ h2 {
 .txtLeft {
   padding: 5%;
 }
+
 .txtRight {
   padding: 5%;
 }
+
 .pagQ {
   display: flex;
-  justify-content: space-evenly;  
+  justify-content: space-evenly;
 }
+
 .pagQ a {
   color: black;
   font-size: 17px;
   border-radius: 1vh;
   text-transform: uppercase;
 }
-.pagQ a:hover{
-  background:darkslateblue;
+
+.pagQ a:hover {
+  background: darkslateblue;
   transition: .7s;
   color: white;
 }
+
 .pagQ img {
   width: auto;
   max-height: 250px;
@@ -181,6 +189,7 @@ h2 {
 .pagQ .img-left {
   margin-top: 40px;
 }
+
 .pagQ .img-right {
   margin-top: 40px;
 }
@@ -190,7 +199,7 @@ footer {
   padding: 3%;
 }
 
-footer img{
+footer img {
   width: 20%;
   height: auto;
   padding: 1%;
@@ -199,29 +208,32 @@ footer img{
 footer .menu2 {
   display: flex;
   justify-content: space-around;
-
 }
-.menu2 a{
- color: black;
+
+.menu2 a {
+  color: black;
 }
 
 .socials {
-  display:flex;
+  display: flex;
   justify-content: center;
 }
-.socials i{
+
+.socials i {
   width: 100%;
   height: auto;
   text-align: center;
-  color:#48cafd;
+  color: #48cafd;
 }
+
 .socials li {
   padding: 2%;
   color: black;
 }
+
 .socials a,
 i:hover {
-  color:black;
+  color: black;
   background-color: none;
   font-size: 30px;
 }
@@ -230,57 +242,59 @@ i:hover {
   font-size: 18px;
   text-transform: capitalize;
   text-align: center;
-} 
-@media screen and  (max-width: 560px){
+}
+
+@media screen and (max-width: 560px) {
   .pagQ {
-  display: flex;
-  justify-content: space-evenly;  
+    display: flex;
+    justify-content: space-evenly;
   }
+
   .pagQ img {
     width: auto;
     max-height: 100px;
     border-radius: 50%;
     padding: 1%;
-  } 
-    .img-right{
-      margin-top: 10%;
-    
-    }
-    .img-left{
-      margin-top: 10%;
-  } 
-  .txtRight{
+  }
+
+  .img-right {
+    margin-top: 10%;
+
+  }
+
+  .img-left {
+    margin-top: 10%;
+  }
+
+  .txtRight {
     font-size: 14px;
-   }
-   .txtLeft{
+  }
+
+  .txtLeft {
     font-size: 14px;
-   }
+  }
 
 }
 
-@media screen and (max-width: 850px){
-  .txtCenter2 img{
+@media screen and (max-width: 850px) {
+  .txtCenter2 img {
     width: 60%;
     height: auto;
   }
-  .txtCenter2{
+
+  .txtCenter2 {
     font-size: 17px;
   }
-  .txtCenter2 .active{
+
+  .txtCenter2 .active {
     font-size: 17px;
   }
 }
 
-@media screen and (max-width: 900px){
-  .menu2{
-    font-size: 14px; 
+@media screen and (max-width: 900px) {
+  .menu2 {
+    font-size: 14px;
     display: flex;
     justify-content: space-around;
-  } 
-}
-  .menu2 img{
-    width: 25%;
-    height: auto;
-    display: inline-block;
-    justify-content: center;
   }
+}
